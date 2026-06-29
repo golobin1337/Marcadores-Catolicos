@@ -81,7 +81,7 @@ document.querySelectorAll('a[href^="#"]').forEach(function (link) {
     var target = document.querySelector(hash);
     if (!target) return;
     e.preventDefault();
-    var barH = (document.getElementById('urgency-bar') || { offsetHeight: 50 }).offsetHeight;
+    var barH = (document.getElementById('urgency-bar') || { offsetHeight: 0 }).offsetHeight;
     var top = target.getBoundingClientRect().top + window.pageYOffset - barH - 10;
     window.scrollTo({ top: top, behavior: 'smooth' });
   });
