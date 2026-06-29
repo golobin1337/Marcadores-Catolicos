@@ -819,6 +819,7 @@ section { padding: 80px 0; }
 
   .testimonials-grid { grid-template-columns: 1fr; }
   .audience-grid { grid-template-columns: 1fr; }
+  .gallery-imgs-grid { grid-template-columns: 1fr; }
 
   .steps-card { padding: 24px 16px; }
   .main-product-card { flex-direction: column; }
