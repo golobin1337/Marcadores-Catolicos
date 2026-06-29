@@ -109,7 +109,7 @@ section { padding: 80px 0; }
 }
 .btn-outline-navy:hover { background: var(--navy); color: #fff; }
 
-.btn-lg { padding: 19px 44px; font-size: 1.05rem; letter-spacing: .8px; text-transform: uppercase; white-space: nowrap; }
+.btn-lg { padding: 19px 44px; font-size: 1.05rem; letter-spacing: .8px; text-transform: uppercase; white-space: nowrap; max-width: calc(100% - 48px); }
 
 @keyframes pulse-glow {
   0%,100% { box-shadow: 0 4px 20px rgba(201,162,39,.4); }
