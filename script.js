@@ -1,17 +1,4 @@
 /* ============================================================
-   URGENCY BAR — compensate fixed height so content isn't hidden
-   ============================================================ */
-(function () {
-  function applyBarOffset() {
-    var bar = document.getElementById('urgency-bar');
-    if (!bar) return;
-    document.body.style.paddingTop = bar.offsetHeight + 'px';
-  }
-  applyBarOffset();
-  window.addEventListener('resize', applyBarOffset);
-})();
-
-/* ============================================================
    DATE INJECTION
    ============================================================ */
 (function () {

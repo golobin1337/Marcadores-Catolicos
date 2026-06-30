@@ -126,10 +126,6 @@ section { padding: 80px 0; }
    URGENCY BAR
    ============================================================ */
 #urgency-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
   width: 100%;
   z-index: 9999;
   background: linear-gradient(90deg, #8b0000 0%, #b01c1c 50%, #8b0000 100%);
@@ -788,14 +784,14 @@ section { padding: 80px 0; }
    ============================================================ */
 #footer {
   background: var(--navy-dark);
-  color: rgba(255,255,255,.45);
+  color: #fff;
   padding: 30px 0;
   text-align: center;
 }
 #footer p { font-size: .83rem; margin-bottom: 8px; line-height: 1.6; }
-.footer-links a { color: rgba(255,255,255,.45); text-decoration: none; }
+.footer-links a { color: #fff; text-decoration: none; }
 .footer-links a:hover { color: rgba(255,255,255,.8); }
-.footer-note { font-size: .75rem; color: rgba(255,255,255,.28); }
+.footer-note { font-size: .75rem; color: rgba(255,255,255,.75); }
 
 /* ============================================================
    RESPONSIVE — 900px
