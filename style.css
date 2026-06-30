@@ -650,9 +650,8 @@ section { padding: 80px 0; }
 .super-highlights div { font-size: .83rem; color: var(--text); font-weight: 500; }
 
 .plan-list { list-style: none; margin-bottom: 26px; }
-.plan-list li { padding: 8px 0; font-size: .87rem; border-bottom: 1px solid var(--border); line-height: 1.4; }
-.plan-list li:last-child { border-bottom: none; }
-.plan-list li.no { opacity: .45; }
+.plan-list li { padding: 8px 0; font-size: .87rem; line-height: 1.4; }
+.plan-list li.no { opacity: .7; }
 
 .price-box { margin-bottom: 22px; text-align: center; }
 .price-from { display: block; font-size: .87rem; color: var(--text-muted); margin-bottom: 2px; }
