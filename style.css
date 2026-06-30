@@ -183,12 +183,13 @@ section { padding: 80px 0; }
   background: rgba(28,43,94,.07);
   border: 1px solid rgba(28,43,94,.2);
   color: var(--navy);
-  padding: 6px 22px;
+  padding: 5px 16px;
   border-radius: 50px;
-  font-size: .82rem;
+  font-size: .72rem;
   font-weight: 600;
-  letter-spacing: .5px;
+  letter-spacing: .4px;
   margin-bottom: 12px;
+  white-space: nowrap;
 }
 
 .hero-headline {
