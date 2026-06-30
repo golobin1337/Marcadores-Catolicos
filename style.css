@@ -782,15 +782,15 @@ section { padding: 80px 0; }
    FOOTER
    ============================================================ */
 #footer {
-  background: var(--navy-dark);
-  color: #fff;
+  background: #fff;
+  color: var(--navy);
   padding: 30px 0;
   text-align: center;
 }
 #footer p { font-size: .83rem; margin-bottom: 8px; line-height: 1.6; }
-.footer-links a { color: #fff; text-decoration: none; }
-.footer-links a:hover { color: rgba(255,255,255,.8); }
-.footer-note { font-size: .75rem; color: rgba(255,255,255,.75); }
+.footer-links a { color: var(--navy); text-decoration: none; }
+.footer-links a:hover { color: var(--gold-dark); }
+.footer-note { font-size: .75rem; color: var(--text-muted); }
 
 /* ============================================================
    RESPONSIVE — 900px
