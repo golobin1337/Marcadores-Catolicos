@@ -41,7 +41,8 @@ img { max-width: 100%; display: block; }
    ============================================================ */
 .container { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
 
-section { padding: 80px 0; }
+section { padding: 80px 0; content-visibility: auto; contain-intrinsic-size: 0 500px; }
+#hero { content-visibility: visible; contain-intrinsic-size: none; }
 .section-cream      { background: var(--cream); }
 .section-white      { background: var(--warm-white); }
 .section-light      { background: #fff; }
@@ -252,7 +253,7 @@ section { padding: 80px 0; }
 }
 .tcard:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
 .stars { color: #f5a623; font-size: 1rem; letter-spacing: 3px; margin-bottom: 12px; }
-.tcard > p { font-size: .92rem; color: var(--text-mid); font-style: italic; line-height: 1.65; margin-bottom: 18px; }
+.tcard > p { font-size: .92rem; color: var(--text-mid); font-style: normal; line-height: 1.65; margin-bottom: 18px; }
 .tauthor { display: flex; align-items: center; gap: 12px; }
 .avatar {
   width: 40px; height: 40px;
