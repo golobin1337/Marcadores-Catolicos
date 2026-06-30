@@ -519,7 +519,7 @@ section { padding: 80px 0; }
   text-align: left;
 }
 .mp-icon { flex-shrink: 0; }
-.mp-img { width: 100%; max-width: 100%; height: auto; object-fit: contain; border-radius: var(--r-sm); display: block; }
+.mp-img { width: 55%; max-width: 280px; height: auto; object-fit: contain; border-radius: var(--r-sm); display: block; margin: 0 auto; }
 .mp-info h3 {
   font-family: 'Playfair Display', serif;
   font-size: 1.1rem;
@@ -629,9 +629,11 @@ section { padding: 80px 0; }
   letter-spacing: .5px;
 }
 .pricing-product-img {
-  width: 100%;
+  width: 58%;
   height: auto;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: var(--r-sm);
   margin-bottom: 20px;
 }
